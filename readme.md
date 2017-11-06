@@ -1,5 +1,11 @@
 # This is an introductory course to Python covering the following notions
 
+## How to start?
+
+From this directory, run `bash launchme.sh` from the command line (under Ubuntu a terminal can be started using <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd>).
+
+## What do we cover?
+
 1. Introduction au langage python
 
 	* Notion de variables dynamiques, initialisation, portée d’une  
