@@ -35,3 +35,15 @@ Passage de paramètres par nom.
 	* Surcharge d’opérateurs
 
 	* Gestion des exceptions.
+
+## What did we use
+
+* persistent Ubuntu USB keys were prepared with [mkusb](https://help.ubuntu.com/community/mkusb/persistent)
+
+* versioning of the presentation and the notebooks was made possible through git and github
+
+* the presentation is based on the [reveal.js](https://github.com/hakimel/reveal.js/) html/javascript presentation module
+
+* python has been served by [Anaconda inc.](https://www.anaconda.com) through a [miniconda](https://conda.io/miniconda.html) installation with the packages numpy, scipy, matplotlib, seaborn, bokeh, pandas, jupyter
+
+
