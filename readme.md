@@ -2,7 +2,17 @@
 
 ## How to start?
 
-From this directory, run `bash launchme.sh` from the command line (under Ubuntu a terminal can be started using <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd>).
+* starting both the presentation and the notebook server:
+
+  From the root directory, run `./launchme.sh` from the command line (under Ubuntu a terminal can be started using <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd>).
+
+* starting only the presentation:
+
+  from the reveal.js directory, run `grunt serve` from the command line (or `npm start` if you plan to make changes)
+
+* starting the notebook server
+
+  from the notebook directory, run `jupyter notebook`
 
 ## What do we cover?
 
@@ -46,4 +56,23 @@ Passage de paramètres par nom.
 
 * python has been served by [Anaconda inc.](https://www.anaconda.com) through a [miniconda](https://conda.io/miniconda.html) installation with the packages numpy, scipy, matplotlib, seaborn, bokeh, pandas, jupyter
 
+## Setting up your environment
 
+If you'd like to have a similar installation on another computer
+
+* using conda and its packages, install [miniconda](https://conda.io/miniconda.html), then from a terminal
+
+	```shell
+	conda install numpy scipy matplotlib seaborn bokeh pandas jupyter ipywidgets
+	jupyter nbextension enable --py --sys-prefix widgetsnbextension
+	```
+
+* setting up [reveal.js](https://github.com/hakimel/reveal.js/) on a `deb`-based linux:
+
+  * install `git` through apt
+
+  * install the packages `nodejs`, `nodejs-legacy` through `apt`
+
+  * `git clone https://github.com/hakimel/reveal.js.git`
+
+  * `cd` into the `reveal.js` directory and run `npm install` from the command line
